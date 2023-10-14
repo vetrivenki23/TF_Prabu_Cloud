@@ -8,6 +8,6 @@ resource "aws_instance" "tf_ec2" {
   #vpc_security_group_ids = [data.aws_security_group.web_server.id]
 
   tags = {
-    Name = "Prabu-EC2"
+    Name = "Prabu-EC2Cloud"
   }
 }
